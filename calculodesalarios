@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int d;
+    float s,j;
+    cout<<"Ingrese la cantidad de días: " <<endl;
+    cin>> d;
+    cout<<"Ingrese el monto del jornal: " <<endl;
+    cin>> j;
+    s=d*j;
+    cout<<"El total del salario es: " << s <<endl;
+    
+    
+
+    return 0;
+}
