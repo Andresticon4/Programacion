@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+     int n, i, mayor, menor;     
+     float suma;
+	 i=0;
+     suma=0;
+     cout<<"Ingresar un numero entero: ";
+     cin>>n;
+     mayor=n;
+     menor=n;
+     do{
+      suma=suma+n;
+	  if (mayor<n)
+	      mayor=n;
+	  if (menor>n)
+		  menor=n;
+	  i=i+1;
+	  cout<<"Ingresar un numero entero: ";
+      cin>>n;
+     }
+      while(n>=0);
+	  {
+		cout<< "El mayor es: "<<mayor<<endl;
+		cout<< "El menor es: "<<menor<<endl;
+		cout<< "El promedio es: "<<suma/i<<endl;
+	  }
+  return 0;
+}
