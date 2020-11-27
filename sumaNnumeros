@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+int main()
+{
+    int numero;
+	float n,i,suma;
+	cout<< "PROGRAMA QUE SUMA N NUMEROS NATURALES"<<endl;
+	cout<< "Ingresa la cantidad de numeros: ";
+	cin>>n;
+	i=0;
+	suma=0;
+	while (i<=n)
+	{
+		suma=suma+i;
+		i=i+1;
+	}
+	cout<< "La suma de todos los numeros es igual: "<<suma;
+	return 0;
+}
