@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int r, x;
+    cout<<"Ingresar x: " ;
+    cin>> x;
+    
+    if (x>=0) {
+    r=x;  }
+    else
+   
+    r=-x;
+    
+    cout << "el valor absoluto es: " << r;
+
+    return 0;
+}
